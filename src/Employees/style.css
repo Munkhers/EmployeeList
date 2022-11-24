@@ -1,0 +1,36 @@
+.app-container {
+    display: flex;
+    justify-content: space-around;
+}
+.form {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.card {
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    padding: 20px;
+    margin: 20px;
+}
+.card-img {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.card-button {
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px;
+}
+.card-edit {
+    margin: 5px;
+}
+.card-delete {
+    margin: 5px;
+}
